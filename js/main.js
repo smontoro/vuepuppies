@@ -8,7 +8,7 @@ new Vue({
 				age: 0.7,
 				breed: 'Italian Greyhound',
 				weightKG: 7,
-				image: '../img/itliangrey.jpg'
+				image: 'https://i.pinimg.com/originals/4c/90/f3/4c90f3aa526a041df9540b34cb3108fb.jpg'
 			},
 			{
 				name: 'Barney',
@@ -16,7 +16,7 @@ new Vue({
 				age: 0.9,
 				breed: 'Beagle',
 				weightKG: 7,
-				image: '../img/beagle.jpg'
+				image: 'https://i.ytimg.com/vi/bx7BjjqHf2U/maxresdefault.jpg',
 				special: 'Mute'
 			},
 			{
@@ -25,7 +25,7 @@ new Vue({
 				age: 0.4,
 				breed: 'Pomeranian',
 				weightKG: 4,
-				image: '../img/pom.jpg'
+				image: 'https://global-free-classified-ads-s02.r.worldssl.net/user_images/6236573.jpg',
 				special: '3-legged'
 			}
 

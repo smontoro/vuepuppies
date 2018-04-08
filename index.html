@@ -10,7 +10,15 @@
 
 <div id="app">
 
-	<div v-for='puppy in puppies'></div>
+	<div v-for='puppy in puppies'>
+		<h1>Name: {{ puppy.name }}</h1>
+		<img v-bind:src="puppy.image"
+			v-bind:alt="puppy.name + ', ' + puppy.breed">
+		<h2>Breed: {{ puppy.breed }}</h2>
+		<h2>Gender: {{ puppy.gender }}</h2>
+		<h2>Age: {{ Math.round(puppy.age * 12) }} months</h2>
+		<h2>Weight: {{ Math.round(puppy.weightKG * 2.2) }} pounds</h2>
+	</div>
 
 
 
