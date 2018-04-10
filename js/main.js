@@ -27,6 +27,14 @@ new Vue({
 				weightKG: 4,
 				image: 'https://global-free-classified-ads-s02.r.worldssl.net/user_images/6236573.jpg',
 				special: '3-legged'
+			},
+			{
+				name: 'Ted',
+				gender: 'female',
+				age: 0.5,
+				breed: 'Basenji',
+				weightKG: 4,
+				image: 'https://thumbs.dreamstime.com/b/basenji-valp-66605093.jpg',
 			}
 
 			]
