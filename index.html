@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-<head> <title>Puppies</title>
+<head> <title>Week 15</title>
    
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
 
 <body class="body">
 
-<div id="app">
+<div id="todo">
 
-	<div v-for='puppy in puppies'>
-		<h1>Name: {{ puppy.name }}</h1>
-		<img v-bind:src="puppy.image"
-			v-bind:alt="puppy.name + ', ' + puppy.breed">
-		<h2>Breed: {{ puppy.breed }}</h2>
-		<h2>Gender: {{ puppy.gender }}</h2>
-		<h2>Age: {{ Math.round(puppy.age * 12) }} months</h2>
-		<h2>Weight: {{ Math.round(puppy.weightKG * 2.2) }} pounds</h2>
-	</div>
+	<input type="input" placeholder="what do you need to do?" v-model:="newTask">
+	<ul>
+		<li>
+			<label for=""></label>
+		</li>
+	</ul>
+
+	<button>Click me</button>
+
 </div>
 
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
